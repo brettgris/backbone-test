@@ -1,0 +1,1 @@
+define(["underscore","backbone","models/ProductModel"],function(e,t,o){var n=t.Collection.extend({model:o,url:"http://localhost:6060/products",initialize:function(){this.page=1},loadPage:function(){this.fetch({add:!0,data:{page:this.page}}),this.page++}});return new n});

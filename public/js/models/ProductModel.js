@@ -1,0 +1,1 @@
+define(["underscore","backbone"],function(e,n){var r=n.Model.extend({validate:function(e){return e.name?void 0:"Name is required"}});return r});

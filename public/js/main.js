@@ -1,0 +1,1 @@
+require.config({baseUrl:"./js/",paths:{jquery:"lib/jquery",underscore:"lib/underscore",backbone:"lib/backbone",handlebars:"lib/handlebars",text:"lib/text"},shim:{underscore:{exports:"_"},backbone:{deps:["underscore","jquery"],exports:"Backbone"}}}),require(["views/IndexView","collections/ProductCollection"],function(e,r){new e({collection:r})});

@@ -1,0 +1,49 @@
+// PRODUCT LIST VARIABLES
+// --------------
+$products-list-margin-top: 20px;
+
+// PRODUCT VARIABLES
+// --------------
+$product-margin-bottom: 20px;
+
+// PRODUCT IMAGE VARIABLES
+// --------------
+$product-image-max-width: 219px;
+$product-image-height: 335px;
+$product-background-color: #c4c4c4;
+
+// PRODUCT LIST STYLING
+// --------------
+#products-list{
+	margin-top: $products-list-margin-top;
+
+	li{
+		margin-bottom: $product-margin-bottom;
+
+		.image{
+			max-width: $product-image-max-width;
+			height: $product-image-height;
+			background-color: $product-background-color;
+			margin:auto;
+		}
+
+	}
+}
+
+// LOAD BUTTON VARIABLES
+// --------------
+$load-button-width: 282px;
+$load-button-height: 49px;
+$load-button-margin-buttom: 30px;
+
+// LOAD BUTTON STYLING
+// --------------
+#load-button{
+	width: $load-button-width;
+	height: $load-button-height;
+	line-height: $load-button-height;
+	padding: 0;
+	border-radius: 0;
+	border: none;
+	margin-bottom: $load-button-margin-buttom;
+}
