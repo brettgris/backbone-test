@@ -1,25 +1,12 @@
 # BACKBONE TEST
 
 ### Requirements
-#### [NodeJS](https://nodejs.org/en/download/)
 
-#### [CommandLine Tools](https://developer.apple.com/downloads/)
+* [NodeJS](https://nodejs.org/en/download/)
+* [CommandLine Tools](https://developer.apple.com/downloads/) - `xcode-select --install`
+* [Gulp](http://gulpjs.com/) - `sudo npm install -g gulp`
+* [Sass](http://sass-lang.com/) - `sudo gem install sass`
 
-```
-xcode-select --install
-```
-
-#### [Gulp](http://gulpjs.com/)
-
-```
-sudo npm install -g gulp
-```
-
-#### [Sass](http://sass-lang.com/)
-
-```
-sudo gem install sass
-```
 
 ### Libraries
 
